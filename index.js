@@ -1,6 +1,6 @@
 const express = require('express');
 const cors = require('cors'); // Essential for MERN stack communication
-const userRoutes = require('../backend/src/routes/userRoutes');
+const userRoutes = require('./src/routes/userRoutes.js');
 
 const app = express();
 const PORT = 3000;
